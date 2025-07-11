@@ -92,7 +92,7 @@ function calPerPrice(unit, price, amount) {
   if (unit === "g" || unit === "ml") {
     perPrice = price / amount;
   } else if (unit === "kg" || unit === "l") {
-    perPrice = (price / amount) * 1000;
+    perPrice = price / 1000;
   } else if (unit === "pieces") {
     perPrice = price / amount;
   }
