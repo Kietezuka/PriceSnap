@@ -160,4 +160,5 @@ function renderCheapest(lists) {
 deleteBtn.addEventListener("dblclick", function () {
   remove(refInDatabase);
   tableBodyEl.innerHTML = "";
+  captionEl.innerHTML = "";
 });
