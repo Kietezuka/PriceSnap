@@ -1,0 +1,73 @@
+h1 {
+  font-size: 20px;
+}
+
+hr {
+  width: 95%;
+  border: 0.5px solid rgb(153, 214, 153);
+}
+input {
+  width: 80px;
+  border-radius: 1px;
+  border: 1px solid #d1d5db;
+}
+button {
+  margin: 5px;
+  border-radius: 15px;
+}
+
+button:hover {
+  border: 2px solid #4338ca;
+}
+
+#compare-btn {
+  background-color: #43a047;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+#delete {
+  width: max-content;
+  margin: 5px 0px;
+}
+.container {
+  background-color: #f9f9f9;
+  color: #212121;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  max-width: 450px;
+  min-width: 300px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#caption-el {
+  caption-side: bottom;
+  margin: 5px;
+}
+head {
+  background-color: #eeeeee;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+table tr {
+  border-bottom: 2px solid black;
+}
+table th {
+  max-width: 400px;
+}
+table th,
+table td {
+  border: thin solid black;
+  padding: 5px;
+}

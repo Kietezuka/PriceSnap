@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Price Comparison</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Product is Cheaper?</h1>
+      <div class="input-section">
+        <input type="text" id="product" placeholder="Pasta" />
+        <input type="number" id="amount" placeholder="500" />
+        <select name="units" id="units">
+          <option value="g">g</option>
+          <option value="kg">kg</option>
+          <option value="ml">ml</option>
+          <option value="l">l</option>
+          <option value="pieces">pcs</option>
+        </select>
+
+        <label for="price">Price: </label>
+        <input type="number" id="price" placeholder="400" />
+      </div>
+      <button id="compare-btn">Compare Prices</button>
+      <hr />
+      <div>
+        <table>
+          <caption id="caption-el"></caption>
+          <thead>
+            <tr>
+              <th scope="col">Product</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
+              <th scope="col">Price per Unit</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+
+      <button id="delete">🗑️</button>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
